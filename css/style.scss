@@ -57,3 +57,115 @@ body {
         background-color: #fff;
     }
 }
+
+.selection {
+    display: flex;
+
+
+    &__option {
+        width: 50%;
+        height: 100%;
+        border: 1px solid black;
+
+        &-quantity {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+        }
+
+        &-color {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+
+            &__label {
+                font-size: 1.4rem;
+                color: #ff00dd;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            &__list {
+                font-size: 24px;
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10%;
+            }
+        }
+
+
+    }
+
+    &__label {
+        font-size: 1.4rem;
+        color: #ffae00;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    &__slider {
+        -webkit-appearance: none;
+        width: 60%;
+        height: 5px;
+        border-radius: 5px;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        background: #fcb447;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #000;
+            cursor: pointer;
+        }
+
+
+        &::-moz-range-thumb {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #000;
+            cursor: pointer;
+        }
+    }
+}
+
+.color {
+    &-1 {
+        color: #fcb447;
+    }
+
+    &-2 {
+        color: black;
+    }
+
+    &-3 {
+        color: green;
+    }
+
+    &-block {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        margin-right: 5px;
+
+        &_black {
+            background-color: #000;
+        }
+    }
+}

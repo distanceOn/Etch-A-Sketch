@@ -24,13 +24,23 @@
 
         <div class="selection container__bottom">
 
-            <div class="selection__option">
+            <div class="selection__option selection__option-quantity">
+                <label class="selection__label" for="myRange">Adjust the number of blocks</label>
+                <input type="range" min="1" max="100" value="16" class="slider selection__slider" id="myRange">
 
             </div>
-            <div class="selection__option">
 
-            </div>
-            <div class="selection__option">
+            <div class="selection__option selection__option-color">
+
+                <label class="selection__option-color__label" for="">What color will you draw?</label>
+                
+                <ul class="selection__option-color__list" id="selection__option-color__list">
+
+                    <li class="color-1"><span class="color-block"></span>Random</li>
+                    <li class="color-2"><span class="color-block color-block_black"></span>Black</li>
+                    <li class="color-3"><span class="color-block"></span>Your color</li>
+
+                </ul>
 
             </div>
 
