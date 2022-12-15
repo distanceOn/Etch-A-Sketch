@@ -43,4 +43,12 @@ body {
   border: 1px solid black;
   height: 80%;
   width: 50%;
+}
+
+.blocks {
+  display: grid;
+}
+.blocks__item {
+  outline: 1px solid black;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */

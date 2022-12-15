@@ -48,3 +48,12 @@ body {
         width: 50%;
     }
 }
+
+.blocks {
+    display: grid;
+
+    &__item {
+        outline: 1px solid black;
+        background-color: #fff;
+    }
+}
