@@ -49,3 +49,8 @@ buttons.forEach(button => {
 yourButton.addEventListener('click', () => {
     colorChanger.click();
 });
+
+range.addEventListener('input', () => {
+    blocks.textContent = '';
+    createGrid(range.value);
+}); 

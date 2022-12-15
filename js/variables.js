@@ -5,3 +5,4 @@ const blackButton = document.querySelector('.selection__button_black');
 const yourButton = document.querySelector('.selection__button_your');
 const colorChanger = document.querySelector('.color-change');
 const buttons = document.querySelectorAll('.selection__button');
+const range = document.querySelector('.slider');
