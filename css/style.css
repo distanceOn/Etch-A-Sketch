@@ -28,19 +28,16 @@ body {
 }
 
 .container {
-  border: 1px solid black;
   height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .container__bottom {
-  border: 1px solid black;
   flex-grow: 1;
   width: 40%;
 }
 .container__top {
-  border: 1px solid black;
   height: 80%;
   width: 50%;
 }
@@ -59,7 +56,6 @@ body {
 .selection__option {
   width: 50%;
   height: 100%;
-  border: 1px solid black;
 }
 .selection__option-quantity {
   display: flex;
@@ -123,6 +119,14 @@ body {
   background: #000;
   cursor: pointer;
 }
+.selection__button {
+  padding: 10px;
+  margin: 5px 0px;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  font-weight: 500;
+}
 
 .color-1 {
   color: #fcb447;
@@ -142,4 +146,14 @@ body {
 }
 .color-block_black {
   background-color: #000;
+}
+
+.active {
+  outline: 1px solid #fcb447;
+}
+
+.color-change {
+  margin-right: 5px;
+  width: 20px;
+  height: 23px;
 }/*# sourceMappingURL=style.css.map */
